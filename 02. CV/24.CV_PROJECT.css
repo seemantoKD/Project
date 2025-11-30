@@ -1,0 +1,192 @@
+body {
+
+    /* default margin and padding remove */
+    margin: 0;
+    padding: 0;
+
+    /* bg-color */
+    background-color: #EEE;
+
+    /* font-family */
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.container {
+
+    /* container width */
+    max-width: 1000px;
+
+    /* container bg-color */
+    background-color: #E4f9f5;
+
+    /* container goes to center */
+    margin: 0 auto;
+
+    /* set padding */
+    padding: 20px;
+}
+
+
+header {}
+
+.profile-img {
+
+    /* set width and height and border */
+    width: 100px;
+    height: 120px;
+    border: 3px solid white;
+
+    /* using border radius for shapping like tutorial */
+    border-radius: 50%;
+
+    /* text beside the image using float property */
+    float: left;
+}
+
+
+.header-bio {
+
+    /* text beside the image using float property */
+    float: left;
+
+    /* set padding for better visualization */
+    padding: 30px;
+    /* image er pasapasi lekha asbe + ektu nice theke shuru hobe */
+
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+
+    color: #11999e;
+}
+
+.header-contact {
+
+    /* contact info gula webpage er right er dike thakbe set korlam */
+    float: right;
+
+    /* set padding for better visualization */
+    padding: 30px;
+}
+
+
+.header-contact a {
+
+    /* remove default setting */
+    text-decoration: none;
+
+    /* set color */
+    color: teal;
+
+    /* using font-weight for showing bold in link */
+    font-weight: bold;
+}
+
+.header-contact a:hover {
+
+    /* change that two things at special moment like hover */
+    text-decoration: underline;
+    color: tomato;
+
+}
+
+/* for clear div */
+.div-clear {
+
+    clear: both;
+}
+
+hr {
+
+    /* showing underline medium gonotto */
+    border: 3px solid black;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+}
+
+/* personal section er kaj */
+#personal-section {}
+
+.content {
+
+    margin-bottom: 30px;
+}
+
+.left-div {
+
+    width: 30%;
+    float: left;
+}
+
+.right-div {
+
+    width: 70%;
+    float: right;
+}
+
+.common-hr {
+
+    border: 1px solid black;
+    border-bottom: none;
+    width: 100%;
+    margin: 20px auto;
+}
+
+.leftpart {
+
+    float: left;
+}
+
+.leftpart a {
+
+    text-decoration: none;
+}
+
+.rightpart {
+    float: right;
+}
+
+.rightpart a {
+
+    text-decoration: none;
+}
+
+.leftpart a:hover {
+
+    color: tomato;
+    text-decoration: underline;
+}
+
+.rightpart a:hover {
+
+    color: tomato;
+    text-decoration: underline;
+}
+
+.bottom-container {
+
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+}
+
+.bottom-container a {
+
+    color: white;
+    text-decoration: white;
+    margin: 20px;
+}
+
+.bottom-container p {
+
+    color: white;
+    margin-top: 20px;
+}
