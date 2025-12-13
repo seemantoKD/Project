@@ -1,0 +1,211 @@
+<!-- responsive restaurant website.
+responsive only for 
+    i. large screen
+    ii. small screen
+
+    -> not responsive for mid or others except large or small screen devices. 
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cozy Cafe</title>
+
+    <!-- set cdn for font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+        crossorigin="anonymous" />
+
+    <!-- set cdn for google font -->
+    <link href="https://fonts.googleapis.com/css2?family=Handlee&family=Montserrat&family=Roboto&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- header starts here -->
+        <header>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="logo-div">
+                        <a href="#">
+                            <i class="logo fas fa-utensils fa-3x"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-8">
+                    <nav>
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#about-us">About Us</a></li>
+                            <li><a href="#menu-section">Food Menu</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+
+            </div>
+
+        </header>
+        <!-- header ends here -->
+
+
+        <!-- main starts here -->
+        <main>
+            <!-- banner section starts here -->
+            <section id="banner-section">
+                <div class="banner-contents">
+                    <h1>Cozy Cafe Restaurant</h1>
+                    <p>20% discounts for take away</p>
+                    <button class="btn">Order Now</button>
+                </div>
+            </section>
+            <!-- banner section ends here -->
+
+            <!-- about us section starts here -->
+            <section id="about-us">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="about-us-contents">
+                            <h3>About Us</h3>
+                            <p>Cozy Cafe is a modern restaurant known for its unique variety of delicious spicy dishes.
+                                With a cozy atmosphere, friendly service, and high-quality ingredients, every meal
+                                becomes memorable. Whether you're dining with family, friends, or for a special outing,
+                                Spicy King offers a delightful experience that satisfies every food lover.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- about us section ends here -->
+
+            <!-- food menu section starts here -->
+            <section id="menu-section">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="images/food1.jpg" alt="">
+
+                                <div class="item-desc">
+                                    <h3 class="item-name">Chicken Vuna</h3>
+                                    <p>Item No: 101</p>
+                                    <p>Rating: 4.5/5</p>
+                                    <p>Price: 250Tk.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="images/food2.jpg" alt="">
+
+                                <div class="item-desc">
+                                    <h3 class="item-name">Beef Curry</h3>
+                                    <p>Item No: 102</p>
+                                    <p>Rating: 4/5</p>
+                                    <p>Price: 750Tk.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="images/food3.jpg" alt="">
+
+                                <div class="item-desc">
+                                    <h3 class="item-name">Fish Curry</h3>
+                                    <p>Item No: 103</p>
+                                    <p>Rating: 3.5/5</p>
+                                    <p>Price: 230Tk.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="images/food4.jpg" alt="">
+
+                                <div class="item-desc">
+                                    <h3 class="item-name">Chicken Tikka</h3>
+                                    <p>Item No: 104</p>
+                                    <p>Rating: 4.5/5</p>
+                                    <p>Price: 280Tk.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- food menu section ends here -->
+
+            <!-- contact section starts here -->
+            <section id="contact">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <iframe class="map"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14460.053429041582!2d91.6487159449675!3d25.033620763746452!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3750e5da3e9ceb37%3A0x929aca3e77f6a251!2sCozy%20Cafe!5e0!3m2!1sen!2sbd!4v1765434586930!5m2!1sen!2sbd"
+                            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+
+                    <div class="col-lg-4">
+                        <div class="contact-details">
+                            <h3>Contact Details</h3> <br>
+                            <div>
+                                <h5>Cozy Cafe Restaurant</h5>
+                                <address>Mondolivug,word-no:07,Chhatak-3080,Sunamganj</address> <br>
+                            </div>
+
+                            <div>
+                                <h5>Phone: </h5>
+                                <p>017XXXXXXXX</p> <br>
+                            </div>
+
+                            <div>
+                                <h5>Opening hours: </h5>
+                                <p>Sun-Thurs: 11am to 9pm <br>
+                                    Inc. Bank Holidays.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- contact section ends here -->
+        </main>
+        <!-- main ends here -->
+
+        <!-- footer starts here -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-6">
+                    <p>&copy; All rights reserved by Coze Cafe Restaurant</p>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="social-menus">
+                        <a href="#"><i class="icon-style fas fa-arrow-up"></i></a>
+                        <a href="#"><i class="icon-style fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="icon-style  fab fa-youtube"></i></a>
+                        <a href="#"><i class="icon-style  fab fa-twitter"></i></a>
+                        <a href="#"><i class="icon-style  fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- footer ends here -->
+    </div>
+</body>
+
+</html>
